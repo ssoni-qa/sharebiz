@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+	<test name="TestOnAndroid">
+		<parameter name="os" value="GalaxyS5-And44" />
+		<parameter name="browser" value="MblChrome35" />
+		<classes>
+			<class name="testSuite.NewTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestOnIphone">
+		<parameter name="os" value="iPhone6-iOS8sim" />
+		<parameter name="browser" value="MblSafari8.0" />
+		<classes>
+			<class name="testSuite.NewTest" />
+		</classes>
+	</test>
+	<test name="TestOnChrome">
+		<parameter name="os" value="Win7x64-C1" />
+		<parameter name="browser" value="Chrome56x64" />
+		<classes>
+			<class name="testSuite.NewTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

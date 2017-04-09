@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81076" started-at="2017-04-09T15:11:01Z" finished-at="2017-04-09T15:12:22Z">
+    <groups>
+    </groups>
+    <test name="TestOnAndroid" duration-ms="38601" started-at="2017-04-09T15:11:01Z" finished-at="2017-04-09T15:11:40Z">
+      <class name="testSuite.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testSuite.NewTest@1774679]" name="setUp" is-config="true" duration-ms="22151" started-at="2017-04-09T20:41:01Z" finished-at="2017-04-09T20:41:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GalaxyS5-And44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MblChrome35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:testSuite.NewTest@1774679]" name="testSimple" duration-ms="11291" started-at="2017-04-09T20:41:23Z" finished-at="2017-04-09T20:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.NewTest@1774679]" name="tearDown" is-config="true" duration-ms="5143" started-at="2017-04-09T20:41:34Z" finished-at="2017-04-09T20:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuite.NewTest -->
+    </test> <!-- TestOnAndroid -->
+    <test name="TestOnChrome" duration-ms="24623" started-at="2017-04-09T15:11:40Z" finished-at="2017-04-09T15:12:04Z">
+      <class name="testSuite.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testSuite.NewTest@13b32d7]" name="setUp" is-config="true" duration-ms="12766" started-at="2017-04-09T20:41:40Z" finished-at="2017-04-09T20:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Win7x64-C1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome56x64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:testSuite.NewTest@13b32d7]" name="testSimple" duration-ms="8157" started-at="2017-04-09T20:41:52Z" finished-at="2017-04-09T20:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.NewTest@13b32d7]" name="tearDown" is-config="true" duration-ms="3700" started-at="2017-04-09T20:42:01Z" finished-at="2017-04-09T20:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuite.NewTest -->
+    </test> <!-- TestOnChrome -->
+    <test name="TestOnIphone" duration-ms="81076" started-at="2017-04-09T15:11:01Z" finished-at="2017-04-09T15:12:22Z">
+      <class name="testSuite.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testSuite.NewTest@83b407]" name="setUp" is-config="true" duration-ms="66128" started-at="2017-04-09T20:41:01Z" finished-at="2017-04-09T20:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone6-iOS8sim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MblSafari8.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:testSuite.NewTest@83b407]" name="testSimple" duration-ms="10805" started-at="2017-04-09T20:42:07Z" finished-at="2017-04-09T20:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.NewTest@83b407]" name="tearDown" is-config="true" duration-ms="4143" started-at="2017-04-09T20:42:18Z" finished-at="2017-04-09T20:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuite.NewTest -->
+    </test> <!-- TestOnIphone -->
+  </suite> <!-- Suite -->
+</testng-results>

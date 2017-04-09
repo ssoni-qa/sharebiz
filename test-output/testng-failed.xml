@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestOnIphone(failed)">
+    <parameter name="os" value="iPhone6-iOS8sim"/>
+    <parameter name="browser" value="MblSafari8.0"/>
+    <classes>
+      <class name="testSuite.NewTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testSimple"/>
+        </methods>
+      </class> <!-- testSuite.NewTest -->
+    </classes>
+  </test> <!-- TestOnIphone(failed) -->
+</suite> <!-- Failed suite [Suite] -->
